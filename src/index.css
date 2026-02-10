@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy-900: #0a192f;
+  --navy-800: #112240; 
+  --navy-700: #233554;
+  --slate-light: #8892b0;
+  --slate-lighter: #ccd6f6;
+  --slate-white: #e6f1ff;
+  --accent-cyan: #64ffda;
+  --accent-blue: #00b4d8;
+}
+
+body {
+  @apply bg-navy-900 text-slate-light font-sans antialiased overflow-x-hidden;
+  scroll-behavior: smooth;
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(100, 255, 218, 0.7);
+}
+
+.glow-box {
+  box-shadow: 0 0 15px rgba(100, 255, 218, 0.2);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a192f;
+}
+::-webkit-scrollbar-thumb {
+  background: #233554;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64ffda;
+}
