@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github } from 'lucide-react';
 import astuProjectImage from '../assets/astu.png';
-import project2 from '../assets/project2.png';
+import portfolioImage from '../assets/portfolio.png';
 import project3 from '../assets/project3.png';
 
 const Projects = () => {
@@ -20,7 +20,7 @@ const Projects = () => {
         {
             title: "Professional Developer Portfolio",
             category: "Productivity",
-            image: project2,
+            image: portfolioImage,
             description: "A high-performance personal website featuring modern UI/UX, smooth animations, and a mobile-first design.",
             tech: ["Next.js", "Figma", "Tailwind CSS"],
             demo: "#",
