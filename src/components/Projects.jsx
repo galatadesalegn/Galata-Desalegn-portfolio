@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github } from 'lucide-react';
-import project1 from '../assets/project1.png';
+import astuProjectImage from '../assets/astu.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
 
@@ -11,7 +11,7 @@ const Projects = () => {
         {
             title: "ASTU Gebeya Ecommerce Platform",
             category: "Full Stack",
-            image: project1,
+            image: astuProjectImage,
             description: "A campus-based C2C marketplace for ASTU students to buy, sell, and trade items safely.",
             tech: ["React", "Node.js", "MongoDB", "Stripe"],
             demo: "#",
